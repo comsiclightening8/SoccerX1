@@ -1,0 +1,176 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 46px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 129px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 46px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.nested {
+  position: relative;
+}
+
+.nested-content {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+.nested:hover .nested-content {
+  display: block;
+}
+
+	.content {
+		background: white;
+		color: black;
+		padding: 40px 40px;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+.top-para{
+	font-size: 24px;
+}
+
+.para{
+	font-size: 20px;
+}
+
+.footer-images {
+	padding-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+ #banner-image {
+		display: none;
+	}
+	
+	#footer-img2 {
+		display: none;
+	}
+	
+	#footer-img3 {
+		display: none;
+	}
+	
+	.footer-images {
+	padding-left: 0px;
+}
+	
+}
+
+@media (max-width: 480px) {
+	#banner-image {
+		display: none;
+	}
+	
+	#footer-img2 {
+		display: none;
+	}
+	
+	#footer-img3 {
+		display: none;
+	}
+	
+	.footer-images {
+	padding-left: 0px;
+}
+}
+
+@media (max-width: 1024px) {
+	#banner-image {
+		display: none;
+	}
+	
+	#footer-img2 {
+		display: none;
+	}
+	
+	#footer-img3 {
+		display: none;
+	}
+	
+	.footer-images {
+	padding-left: 300px;
+}
+}
+
+@media (max-width: 440px) {
+	#banner-image {
+		display: none;
+	}
+	
+	#footer-img1 {
+		display: none;
+	}
+	
+	#footer-img2 {
+		display: none;
+	}
+	
+	#footer-img3 {
+		display: none;
+	}
+	
+	.footer-images {
+	padding-left: 300px;
+}
+}
